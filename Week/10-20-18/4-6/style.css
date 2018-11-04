@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main_box{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid blue;
+}
+.forms{
+    width: 50%;
+    height: auto;
+    margin: 0px auto;
+    border: 1px solid red;
+}
+.lables{
+    width: 100%;
+    height: auto;
+}
+.lables label{
+    font-size: 1.1em;
+}
+.inputs{
+    width: 100%;
+    height: auto;
+}
+.inputs input{
+    margin-top: 1%;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid lightblue;
+    border-radius: 4px;
+}
+.errorEmail{
+    width: 100%;
+    height: auto;
+    font-size: 1.1em;
+    color: red;
+    text-align: left;
+}

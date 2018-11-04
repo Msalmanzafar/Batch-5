@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.forms{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+}
+.inputs{
+    width: 30%;
+    border: 1px solid blue;
+
+}
+.inputs-box{
+    /* margin: 0px auto; */
+    width: 100%;
+    height: auto;
+    border: 1px solid green;
+}
+.inputs-box input{
+    width: 80%;
+}
+.result{
+    width: 70%;
+    text-align: center
+}

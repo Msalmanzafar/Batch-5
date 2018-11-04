@@ -1,0 +1,14 @@
+Make Signup Page with Atractive Layout
+These are Requiar
+
+1.First name
+2.Last name
+3.Email
+4.Password
+5.Confirm Password
+6.Gender
+7.Date of Birth
+8.Tesrms And conditions
+get data from input feilds and applay 
+validations after that store in 
+localestorage

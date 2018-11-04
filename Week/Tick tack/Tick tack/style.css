@@ -1,0 +1,166 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4fc3f7;
+}
+.game{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    font-size: 3em;
+    font-weight: 700;
+    text-shadow: 0px 1px 3px gray;
+    margin: 0px auto;
+    margin-bottom: 2%;
+}
+.user-play{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+#tick{
+    width:  470px;
+    height: auto;
+    margin: 0px auto;
+    /* border: 1px solid green; */
+}
+.mainBox{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* box1 */
+.div1{
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    background-color: lightslategray;
+    text-align: center;
+}
+.div1:hover{
+    background-color: brown;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.spans{
+    position: relative;
+    top: 10%;
+    font-weight: bold;
+    font-size: 6.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* --------------------------------------------------- */
+
+.div2{
+    width: 150px;
+    background-color: lightslategray;
+    height: 150px;
+    text-align: center;
+    border: 2px solid white;
+}
+.div2:hover{
+    background-color: brown;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.div3{
+    background-color: lightslategray;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+}
+.div3:hover{
+    background-color: brown;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.div4{
+    background-color: lightslategray;
+    width: 150px;
+    text-align: center;
+    height: 150px;
+    border: 2px solid white;
+}
+.div4:hover{
+    background-color: brown;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.div5{
+    background-color: lightslategray;
+    width: 150px;
+    text-align: center;
+    height: 150px;
+    border: 2px solid white;
+}
+.div5:hover{
+    background-color: brown;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.div6{
+    background-color: lightslategray;
+    width: 150px;
+    text-align: center;
+    height: 150px;
+    border: 2px solid white;
+}
+.div6:hover{
+    background-color: brown;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.div7{
+    background-color: lightslategray;
+    width: 150px;
+    text-align: center;
+    height: 150px;
+    border: 2px solid white;
+}
+.div7:hover{
+    background-color: brown;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.div8{
+    width: 150px;
+    text-align: center;
+    background-color: lightslategray;
+    height: 150px;
+    border: 2px solid white;
+}
+.div8:hover{
+    background-color: brown;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.div9{
+    width: 150px;
+    text-align: center;
+    background-color: lightslategray;
+    height: 150px;
+    border: 2px solid white;
+}
+.div9:hover{
+    background-color: brown;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.player-info{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    text-shadow: 0px 1px 3px gray;
+}
+.user-value{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    text-shadow: 0px 1px 3px gray;
+}

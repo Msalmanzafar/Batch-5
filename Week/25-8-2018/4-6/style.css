@@ -1,0 +1,32 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*:focus{
+    outline: none;
+}
+.user-box{
+    width: 90%;
+    height: auto;
+    border: 1px solid blue;
+    margin: 0px auto;
+    padding: 10px 10px;
+}
+#todoList{
+    width: 250px;
+    font-size: 1.1em;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 6px 5px;
+}
+.btn{
+    padding: 6px 5px;
+    font-size: 1.1em;
+    border-radius: 4px;
+    border: 1px solid gray;
+    background-color: transparent;
+    color: #000;
+    margin: 0px 4%;
+}

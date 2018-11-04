@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="forms">
+        <div class="inputs">
+            <div class="inputs-box">
+                <label>Full Name</label>
+                <br/>
+                <input type="text" id="fullName" placeholder="Enter your name" />
+            </div>
+            <div class="inputs-box">
+                <label>Father Name</label>
+                <br/>
+                <input type="text" id="fatherName" placeholder="Enter your father name" />
+            </div>
+            <div class="inputs-box">
+                <label>Roll Number</label>
+                <br/>
+                <input type="number" id="rollNo" placeholder="Enter your roll no." />
+            </div>
+            <div class="inputs-box">
+                <label>Course Name</label>
+                <br/>
+                <input type="text" id="courseName" placeholder="Enter your course name" />
+            </div>
+            <div class="inputs-box">
+                <button type="button" onClick="submit()">Submit</button>
+            </div>
+        </div>
+        <div class="result">
+            <h1>Full Name: <span id="name"></span></h1>
+            <h1>Father Name: <span id="Fname"></span></h1>
+            <h1>Roll Number: <span id="rollnumbers"></span></h1>
+            <h1>Course Name: <span id="course"></span></h1>
+        </div>
+    </div>
+    <input type="text" id="todo">
+    <button onClick="addTodo()">Add</button>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+body{
+    background-color: lightgray;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.heading h2{
+    text-shadow: 0px 2px 3px gray;
+}
+.main_box{
+    width: 70%;
+    height: auto;
+    /* background-color: gray; */
+    margin: 0px auto;
+}
+.child_box{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    /* border: 1px solid blue; */
+}
+.labels{
+    width: 30%;
+    height: auto;
+    /* border: 1px solid red; */
+}
+.inputs{
+    width: 70%;
+    height: auto;
+    /* border: 1px solid red; */
+}
+.labels label{
+    font-size: 1.1em;
+    padding: 8px;
+    text-align: left;
+    line-height: 40px;
+}
+.inputs input{
+    width: 70%;
+    padding: 8px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px lightskyblue;
+}

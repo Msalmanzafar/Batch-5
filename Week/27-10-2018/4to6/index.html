@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>layout</title>
+    <link rel="stylesheet" href="./style/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="./style/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+</head>
+
+<body>
+    <div class="container-flux header">
+        <div class="col-md-8 offset-md-2 col-lg-8 offset-lg-2 col-sm-8 offset-sm-2 text-center">
+            <h2>Sign Up</h2>
+        </div>
+    </div>
+    <div class="col-md-6 offset-md-3">
+        <div class="form-group">
+            <label for="fName">First Name</label>
+            <input type="text" class="form-control" id="fName" aria-describedby="emailHelp" placeholder="Enter email">
+            <div class="col-md-12 error" id="errorfName"></div>
+        </div>
+        <div class="form-group">
+            <label for="lName">Last Name</label>
+            <input type="text" class="form-control" id="lName" aria-describedby="emailHelp" placeholder="Enter email">
+            <div class="col-md-12 error" id="errorlName"></div>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+            <div class="col-md-12 error" id="errorEmail"></div>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" aria-describedby="emailHelp" placeholder="Enter email">
+            <div class="col-md-12 error" id="errorPassword"></div>
+        </div>
+        <div class="col-md-12 text-right">
+            <button onClick="signUp()" class="btn btn-info">Sign Up</button>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

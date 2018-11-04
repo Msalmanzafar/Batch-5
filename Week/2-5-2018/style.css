@@ -1,0 +1,8 @@
+.box{
+    border: 1px solid blue;
+    height: 40px;
+}
+.box p{
+    line-height: 40px;
+    font-weight: bold
+}

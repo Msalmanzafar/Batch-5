@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Firebase Auth</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Fire'z</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <!-- <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Page 1</a></li>
+                    <li><a href="#">Page 2</a></li>
+                    <li><a href="#">Page 3</a></li>
+                </ul> -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../pages/signIn.html" id="signin"><span class="glyphicon glyphicon-log-in"></span>
+                            Sign In</a></li>
+                    <li><a href="javaScript:Void(0)" id="logout" onClick="logOut()"><span class="glyphicon glyphicon-log-out"></span>
+                            Log Out</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="col-md-8 col-md-offset-2 text-center">
+        <h2 id="auth"></h2>
+    </div>
+
+    <div class="col-md-8 col-md-offset-2">
+        <div class="form-group">
+            <label for="usr">Name:</label>
+            <input type="text" class="form-control" id="name">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Message:</label>
+            <input type="text" class="form-control" id="message">
+        </div>
+        <div class="col-md-12 text-right">
+            <button class="btn btn-success" onClick="createPost()">Create Post</button>
+        </div>
+    </div>
+    <div class="col-md-8 col-md-offset-2" id="posts">
+        
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+    <script src="../js/auth.js"></script>
+</body>
+
+</html>
